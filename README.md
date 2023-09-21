@@ -5,7 +5,7 @@
 
 - 💬 Ask me about **python**
 
-- 📫 How to reach me **1furkanr@gmail.com**
+- 📫 How to reach me **furkancollabs1@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
