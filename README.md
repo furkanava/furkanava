@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm furkan</h1>
 <h3 align="center">A passionate android developer from Turkiye</h3>
 
-- 🌱 I’m currently learning **flutter,html,css**
+- 🌱 I’m currently learning **Swift
 
 - 💬 Ask me about **python**
 
