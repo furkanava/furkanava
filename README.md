@@ -47,7 +47,7 @@ me.say_hi()
 ### 📈 GitHub İstatistikleri
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=furkan&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=furkanava&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=furkan&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF" height="170"/>
 </div>
 
