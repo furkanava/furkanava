@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=👋+Merhaba,+ben+Furkan!;Flutter+%2F+Android+%2F+iOS+Geliştiricisi;🇹🇷+Türkiye'den+Mobil+Uygulama+Tutkunu" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=👋+Hello,+I'm+Furkan!;Flutter+%2F+Android+%2F+Software+Developer;+Mobile+App+Enthusiast+from+Turkey" alt="Typing SVG">
 </div>
 
 ---
 
-### 🚀 Hakkımda
+### 🚀 About
 
 ```python
 class Furkan:
@@ -23,7 +23,7 @@ me.say_hi()
 
 ---
 
-### 🛠️ Kullandığım Teknolojiler
+### 🛠️ Technologies I Use
 
 <div align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
@@ -44,7 +44,7 @@ me.say_hi()
 
 ---
 
-### 📈 GitHub İstatistikleri
+### 📈 GitHub Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=furkanava&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF" height="170"/>
@@ -53,7 +53,7 @@ me.say_hi()
 
 ---
 
-### 📬 Bana Ulaş
+### 📬 Contact Me
 
 <div align="center">
   <a href="mailto:furkancollabs1@gmail.com">
