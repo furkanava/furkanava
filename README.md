@@ -69,7 +69,7 @@ me.say_hi()
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
   <br><br>
-  <img src="https://komarev.com/ghpvc/?username=furkan&label=Profil+Görüntülenme&color=0e75b6&style=flat"/>
+  <img src="https://komarev.com/ghpvc/?username=furkan&label=Profile+View&color=0e75b6&style=flat"/>
 </div>
 
 ---
