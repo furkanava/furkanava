@@ -75,5 +75,5 @@ me.say_hi()
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Teşekkürler+ziyaret+ettiğin+için!&fontSize=16&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=THX+For+Visiting!&fontSize=16&fontColor=ffffff"/>
 </div>
