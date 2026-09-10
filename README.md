@@ -28,10 +28,6 @@
 
 <br/>
 
-<table align="center" border="0">
-  <tr>
-    <td width="52%" valign="top">
-
 ### `> whoami`
 
 ```yaml
@@ -49,14 +45,12 @@ open_to:  collabs · hackathons · open source
 - 🧠 ML & NLP side quests: **FinBERT**, Random Forest, SMOTE
 - 🏆 Hackathon regular — HackYeah 2025 · Google Bootcamp · GDSC Solution Challenge
 
-    </td>
-    <td width="48%" valign="top" align="center">
-      <img src="https://github-readme-stats-fork-nine.vercel.app/api?username=furkanava&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&ring_color=BB9AF7&hide_title=true" alt="stats" width="100%"/>
-      <br/><br/>
-      <img src="https://streak-stats.demolab.com?user=furkanava&hide_border=true&background=0D1117&stroke=0D1117&ring=BB9AF7&fire=7AA2F7&currStreakNum=C0CAF5&sideNums=C0CAF5&currStreakLabel=BB9AF7&sideLabels=7AA2F7&dates=565F89&date_format=M%20j%5B%2C%20Y%5D" alt="streak" width="100%"/>
-    </td>
-  </tr>
-</table>
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats-fork-nine.vercel.app/api?username=furkanava&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&ring_color=BB9AF7&hide_title=true&card_width=495" alt="stats" width="49%"/>
+  <img src="https://streak-stats.demolab.com?user=furkanava&hide_border=true&background=0D1117&stroke=0D1117&ring=BB9AF7&fire=7AA2F7&currStreakNum=C0CAF5&sideNums=C0CAF5&currStreakLabel=BB9AF7&sideLabels=7AA2F7&dates=565F89&date_format=M%20j%5B%2C%20Y%5D&card_width=495" alt="streak" width="49%"/>
+</div>
 
 <br/>
 
