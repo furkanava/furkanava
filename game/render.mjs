@@ -95,7 +95,7 @@ export function renderBoard(s, spawned) {
   </defs>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .k { fill: ${MUTED}; font-size: 11px; letter-spacing: 1.5px; }
+    .k { fill: ${MUTED}; font-size: 11px; letter-spacing: 1.2px; }
     .v { fill: ${TEXT}; font-size: 20px; font-weight: 700; }
     .s { fill: ${TEXT}; font-size: 12px; }
     .blink { animation: blink 1.1s steps(2, start) infinite; }
@@ -107,7 +107,7 @@ export function renderBoard(s, spawned) {
     ${tiles}
 
   <text x="${px}" y="46" fill="${ACCENT}" font-size="26" font-weight="800" letter-spacing="2">2048</text>
-  <text x="${px}" y="66" class="k">SHARED BOARD · EVERYONE PLAYS</text>
+  <text x="${px}" y="66" class="k">ONE BOARD · EVERYONE PLAYS</text>
 
   <text x="${px}" y="106" class="k">SCORE</text>
   <text x="${px}" y="130" class="v">${s.score}</text>
