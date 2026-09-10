@@ -1,131 +1,58 @@
-<!-- ───────────────────────────────────────────────────────────────────────── -->
-<!--  Palette: bg #0D1117 · violet #BB9AF7 · blue #7AA2F7 · text #C0CAF5       -->
-<!-- ───────────────────────────────────────────────────────────────────────── -->
+<!-- Everything visual here is hand-made SVG living in this repo (assets/) — no third-party stat services. -->
+<!-- The 2048 board is updated by .github/workflows/2048.yml whenever someone opens a "2048: <dir>" issue.  -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=210&section=header&text=Furkan%20K%C3%BCl&fontSize=68&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=Mobile%20Developer%20%C2%B7%20Flutter%20%C2%B7%20Audio%20and%20ML%20tinkerer&descSize=18&descAlignY=58&descAlign=50" width="100%" alt="header"/>
+  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/hero.svg" width="100%" alt="terminal: furkan kül — mobile developer"/>
 </div>
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,swift,python,cpp,firebase,git,figma&perline=8" alt="flutter, dart, swift, python, c++, firebase, git, figma"/>
+</p>
+
+<br/>
+
+<h3 align="center">🕹️ 2048, but everyone shares one board</h3>
+
+<p align="center">
+  Pick a direction → press <b>Submit new issue</b> → the board redraws in about 30 seconds.<br/>
+  <sub>Whoever visits next continues where you left off.</sub>
+</p>
+
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=BB9AF7&center=true&vCenter=true&width=640&lines=Building+mobile+apps+with+Flutter+%F0%9F%93%B1;Synthesizing+sound+with+Dart+%2B+C%2B%2B+%F0%9F%8E%9B%EF%B8%8F;Training+models+in+Python+%F0%9F%A7%A0;Shipping+ideas+at+hackathons+%F0%9F%8F%86" alt="typing"/>
+  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/2048.svg?v=1789072069071" alt="shared 2048 board" width="560"/>
+  <br/><br/>
+  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20left&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-left.svg" alt="move left"/></a>
+  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20up&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-up.svg" alt="move up"/></a>
+  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20down&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-down.svg" alt="move down"/></a>
+  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20right&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-right.svg" alt="move right"/></a>
+  <br/><br/>
+  <sub><!-- 2048:stats --><b>0</b> pts · best <b>0</b> · 0 moves by 0 people · no moves yet<!-- /2048:stats --></sub>
 </div>
 
 <br/>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/furkankul">
-    <img src="https://img.shields.io/badge/LinkedIn-furkankul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:furkancollabs1@gmail.com">
-    <img src="https://img.shields.io/badge/Mail-furkancollabs1-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/furkanava?tab=followers">
-    <img src="https://img.shields.io/github/followers/furkanava?style=for-the-badge&logo=github&color=BB9AF7&labelColor=0D1117" alt="Followers"/>
-  </a>
-</div>
+<h3 align="center">Selected work</h3>
 
-<br/>
-
-### `> whoami`
-
-```yaml
-name:     Furkan Kül
-role:     Mobile Developer
-stack:    [Flutter, Dart, Swift, Python, C++]
-now:      OpenChord — a pocket synth in Flutter + C++
-learning: [SwiftUI, real-time DSP, NLP]
-fun_fact: 17,000+ chords, zero music theory needed
-open_to:  collabs · hackathons · open source
-```
-
-- 📱 Cross-platform apps with **Flutter**, exploring native **iOS / SwiftUI**
-- 🎛️ Audio nerd — synthesis, loopers and DSP filters on mobile
-- 🧠 ML & NLP side quests: **FinBERT**, Random Forest, SMOTE
-- 🏆 Hackathon regular — HackYeah 2025 · Google Bootcamp · GDSC Solution Challenge
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats-fork-nine.vercel.app/api?username=furkanava&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&ring_color=BB9AF7&hide_title=true&card_width=495" alt="stats" width="49%"/>
-  <img src="https://streak-stats.demolab.com?user=furkanava&hide_border=true&background=0D1117&stroke=0D1117&ring=BB9AF7&fire=7AA2F7&currStreakNum=C0CAF5&sideNums=C0CAF5&currStreakLabel=BB9AF7&sideLabels=7AA2F7&dates=565F89&date_format=M%20j%5B%2C%20Y%5D&card_width=495" alt="streak" width="49%"/>
-</div>
-
-<br/>
-
-<h3 align="center">⚡ Toolbox</h3>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,swift,python,cpp,firebase,sklearn,git&perline=8" alt="core stack"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css,docker,figma,wordpress&perline=8" alt="web & tools"/>
-</div>
-
-<br/>
-
-<h3 align="center">🚀 Featured Work</h3>
-
-<div align="center">
-  <a href="https://github.com/furkanava/openchord_synth">
-    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=openchord_synth&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="openchord_synth" width="49%"/>
-  </a>
-  <a href="https://github.com/furkanava/softlang-app">
-    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=softlang-app&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="softlang-app" width="49%"/>
-  </a>
-  <a href="https://github.com/furkanava/HackYeah-Hackathon-2025">
-    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=HackYeah-Hackathon-2025&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="HackYeah-Hackathon-2025" width="49%"/>
-  </a>
-  <a href="https://github.com/furkanava/fin-sentiment-analysis">
-    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=fin-sentiment-analysis&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="fin-sentiment-analysis" width="49%"/>
-  </a>
-</div>
-
-<table align="center" border="0">
+<table align="center">
   <tr>
-    <td align="center">🎹</td>
-    <td><b><a href="https://github.com/furkanava/openchord_synth">OpenChord</a></b> — open-source chord synthesizer &amp; loop workstation. Flutter UI, C++ audio engine, multi-track looper, real-time DSP filters, drum backing tracks.</td>
+    <td><b><a href="https://github.com/furkanava/softlang-app">softlang</a></b></td>
+    <td>English for developers — flashcards + Gemini-powered conversation practice. Flutter, built in a 4-day app jam.</td>
   </tr>
   <tr>
-    <td align="center">🗣️</td>
-    <td><b><a href="https://github.com/furkanava/softlang-app">Softlang</a></b> — English for developers. Flashcards, curated videos and Gemini-powered AI stories for speaking practice. Built in a 4-day app jam.</td>
+    <td><b><a href="https://github.com/furkanava/HackYeah-Hackathon-2025">quantum leap</a></b></td>
+    <td>Pension simulator with Monte Carlo forecasting and behavioural nudges. React 19 + Tailwind, HackYeah 2025.</td>
   </tr>
   <tr>
-    <td align="center">📈</td>
-    <td><b><a href="https://github.com/furkanava/HackYeah-Hackathon-2025">Quantum Leap</a></b> — ZUS pension simulator with Monte Carlo forecasting and behavioral nudges. React 19 + Tailwind v4, built at HackYeah 2025.</td>
-  </tr>
-  <tr>
-    <td align="center">💹</td>
-    <td><b><a href="https://github.com/furkanava/fin-sentiment-analysis">Fin-Sentiment</a></b> — financial news sentiment classifier comparing TF-IDF + Random Forest, SMOTE and FinBERT on the same test set.</td>
+    <td><b><a href="https://github.com/furkanava/fin-sentiment-analysis">fin-sentiment</a></b></td>
+    <td>Financial news sentiment — Random Forest vs SMOTE vs FinBERT, compared on one test set.</td>
   </tr>
 </table>
 
 <br/>
 
-<h3 align="center">📊 Languages</h3>
-
-<div align="center">
-  <img src="https://github-readme-stats-fork-nine.vercel.app/api/top-langs/?username=furkanava&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=BB9AF7&text_color=C0CAF5&hide_title=true&hide=cmake,ruby,html,css,jupyter%20notebook&card_width=495" alt="top languages"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/furkanava/furkanava/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/furkanava/furkanava/output/github-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/furkanava/furkanava/output/github-snake-dark.svg" alt="contribution snake" width="100%"/>
-  </picture>
-</div>
-
-<br/>
-
-<!-- ⚠️ Profile view counter is keyed by `username=furkan` (not furkanava).       -->
-<!--    Changing that parameter resets the count — only label/color/style are safe. -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=furkan&label=PROFILE+VIEWS&color=BB9AF7&style=for-the-badge" alt="profile views"/>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243E,50:302B63,100:0F0C29&height=120&section=footer" width="100%" alt="footer"/>
-</div>
+<!-- ⚠️ The view counter is keyed by `username=furkan` (not furkanava). Changing that resets the count. -->
+<p align="center">
+  <a href="mailto:furkancollabs1@gmail.com"><img src="https://img.shields.io/badge/say%20hi-furkancollabs1%40gmail.com-161B22?style=flat-square&logo=gmail&logoColor=BB9AF7" alt="email"/></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=furkan&label=visitors&color=BB9AF7&style=flat-square" alt="profile views"/>
+</p>

@@ -1,0 +1,28 @@
+{
+  "board": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "score": 0,
+  "best": 0,
+  "moves": 0,
+  "gameMoves": 0,
+  "games": 1,
+  "players": {},
+  "lastMove": null,
+  "lastGame": null
+}

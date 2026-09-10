@@ -1,0 +1,55 @@
+name: 2048 · play a move
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Moves are serialised so two visitors can't race on the same board state.
+concurrency:
+  group: play-2048
+  cancel-in-progress: false
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, '2048:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Apply the move
+        id: play
+        # Untrusted issue data crosses the boundary ONLY as environment variables (never interpolated into shell).
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: node game/play.mjs
+
+      - name: Commit the new board
+        if: steps.play.outputs.changed == 'true'
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "2048-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets game/state.json
+          git commit -m "2048: move by @${PLAYER} (#${ISSUE_NUMBER})"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            sleep 3
+          done
+
+      - name: Reply and close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --comment "$(cat game/comment.md)"
