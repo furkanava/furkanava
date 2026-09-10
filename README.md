@@ -35,13 +35,13 @@
 ### `> whoami`
 
 ```yaml
-name:      Furkan Kül
-role:      Mobile Developer
-stack:     [Flutter, Dart, Swift, Python, C++]
-now:       building OpenChord — a pocket synth in Flutter + C++
-learning:  [SwiftUI, real-time DSP, NLP]
-fun_fact:  17,000+ chord combos generated with zero music theory
-open_to:   collaborations · hackathons · open source
+name:     Furkan Kül
+role:     Mobile Developer
+stack:    [Flutter, Dart, Swift, Python, C++]
+now:      OpenChord — a pocket synth in Flutter + C++
+learning: [SwiftUI, real-time DSP, NLP]
+fun_fact: 17,000+ chords, zero music theory needed
+open_to:  collabs · hackathons · open source
 ```
 
 - 📱 Cross-platform apps with **Flutter**, exploring native **iOS / SwiftUI**
@@ -51,7 +51,7 @@ open_to:   collaborations · hackathons · open source
 
     </td>
     <td width="48%" valign="top" align="center">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=furkanava&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&ring_color=BB9AF7&hide_title=true" alt="stats" width="100%"/>
+      <img src="https://github-readme-stats-fork-nine.vercel.app/api?username=furkanava&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&ring_color=BB9AF7&hide_title=true" alt="stats" width="100%"/>
       <br/><br/>
       <img src="https://streak-stats.demolab.com?user=furkanava&hide_border=true&background=0D1117&stroke=0D1117&ring=BB9AF7&fire=7AA2F7&currStreakNum=C0CAF5&sideNums=C0CAF5&currStreakLabel=BB9AF7&sideLabels=7AA2F7&dates=565F89&date_format=M%20j%5B%2C%20Y%5D" alt="streak" width="100%"/>
     </td>
@@ -74,16 +74,16 @@ open_to:   collaborations · hackathons · open source
 
 <div align="center">
   <a href="https://github.com/furkanava/openchord_synth">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=furkanava&repo=openchord_synth&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="openchord_synth" width="49%"/>
+    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=openchord_synth&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="openchord_synth" width="49%"/>
   </a>
   <a href="https://github.com/furkanava/softlang-app">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=furkanava&repo=softlang-app&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="softlang-app" width="49%"/>
+    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=softlang-app&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="softlang-app" width="49%"/>
   </a>
   <a href="https://github.com/furkanava/HackYeah-Hackathon-2025">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=furkanava&repo=HackYeah-Hackathon-2025&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="HackYeah-Hackathon-2025" width="49%"/>
+    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=HackYeah-Hackathon-2025&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="HackYeah-Hackathon-2025" width="49%"/>
   </a>
   <a href="https://github.com/furkanava/fin-sentiment-analysis">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=furkanava&repo=fin-sentiment-analysis&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="fin-sentiment-analysis" width="49%"/>
+    <img src="https://github-readme-stats-fork-nine.vercel.app/api/pin/?username=furkanava&repo=fin-sentiment-analysis&hide_border=true&bg_color=0D1117&title_color=BB9AF7&icon_color=7AA2F7&text_color=C0CAF5&description_lines_count=2" alt="fin-sentiment-analysis" width="49%"/>
   </a>
 </div>
 
@@ -111,7 +111,7 @@ open_to:   collaborations · hackathons · open source
 <h3 align="center">📊 Languages</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=furkanava&layout=donut-vertical&langs_count=8&hide_border=true&bg_color=0D1117&title_color=BB9AF7&text_color=C0CAF5&hide_title=true&hide=html,css,jupyter%20notebook" alt="top languages" height="300"/>
+  <img src="https://github-readme-stats-fork-nine.vercel.app/api/top-langs/?username=furkanava&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=BB9AF7&text_color=C0CAF5&hide_title=true&hide=cmake,ruby,html,css,jupyter%20notebook&card_width=495" alt="top languages"/>
 </div>
 
 <br/>
