@@ -223,9 +223,20 @@ function paint(seedStr) {
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="none" stroke="#30363D"/>
 </svg>
 `;
-  writeFileSync(OUT_OVERRIDE || OUTPUT, svg);
+  const target = OUT_OVERRIDE || OUTPUT;
+  let previous = "";
+  try {
+    previous = readFileSync(target, "utf8");
+  } catch {
+    /* first run */
+  }
+  if (previous === svg) {
+    console.log("painting unchanged");
+    return;
+  }
+  writeFileSync(target, svg);
 
-  // Bust GitHub's image cache in the README.
+  // Bust GitHub's image cache in the README (only when the painting actually changed).
   try {
     let md = readFileSync(README, "utf8");
     const next = md.replace(/assets\/year\.svg\?v=\d+/g, `assets/year.svg?v=${Date.now()}`);
