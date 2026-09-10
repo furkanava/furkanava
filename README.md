@@ -3,7 +3,7 @@
 <!-- ───────────────────────────────────────────────────────────────────────── -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=210&section=header&text=Furkan%20K%C3%BCl&fontSize=68&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=Mobile%20Developer%20%C2%B7%20Flutter%20%C2%B7%20Audio%20%26%20ML%20tinkerer&descSize=18&descAlignY=58&descAlign=50" width="100%" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=210&section=header&text=Furkan%20K%C3%BCl&fontSize=68&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=Mobile%20Developer%20%C2%B7%20Flutter%20%C2%B7%20Audio%20and%20ML%20tinkerer&descSize=18&descAlignY=58&descAlign=50" width="100%" alt="header"/>
 </div>
 
 <div align="center">
