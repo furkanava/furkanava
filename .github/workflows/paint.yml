@@ -1,0 +1,50 @@
+name: paint the year
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # every Monday 03:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["art/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  paint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the last year of contributions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api graphql -f login="$GITHUB_REPOSITORY_OWNER" -f query='
+            query($login: String!) {
+              user(login: $login) {
+                contributionsCollection {
+                  contributionCalendar {
+                    totalContributions
+                    weeks { contributionDays { date contributionCount weekday } }
+                  }
+                }
+              }
+            }' > art/contributions.json
+
+      - name: Paint
+        run: node art/paint.mjs
+
+      - name: Commit if the painting changed
+        run: |
+          git config user.name "painter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/year.svg art/contributions.json README.md
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "paint: refresh the year ($(date -u +%Y-%m-%d))"
+          git push

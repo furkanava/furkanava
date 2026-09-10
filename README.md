@@ -1,5 +1,5 @@
 <!-- Everything visual here is hand-made SVG living in this repo (assets/) — no third-party stat services. -->
-<!-- The 2048 board is updated by .github/workflows/2048.yml whenever someone opens a "2048: <dir>" issue.  -->
+<!-- The painting is regenerated weekly by .github/workflows/paint.yml from the contribution calendar.  -->
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/hero.svg" width="100%" alt="terminal: furkan kül — mobile developer"/>
@@ -11,22 +11,10 @@
 
 <br/>
 
-<h3 align="center">🕹️ 2048, but everyone shares one board</h3>
-
-<p align="center">
-  Pick a direction → press <b>Submit new issue</b> → the board redraws in about 30 seconds.<br/>
-  <sub>Whoever visits next continues where you left off.</sub>
-</p>
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/2048.svg?v=1789072265657" alt="shared 2048 board" width="560"/>
-  <br/><br/>
-  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20left&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-left.svg" alt="move left"/></a>
-  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20up&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-up.svg" alt="move up"/></a>
-  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20down&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-down.svg" alt="move down"/></a>
-  <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20right&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-right.svg" alt="move right"/></a>
-  <br/><br/>
-  <sub><!-- 2048:stats --><b>0</b> pts · best <b>0</b> · 1 moves by 1 person · last move by <a href="https://github.com/furkanava">@furkanava</a><!-- /2048:stats --></sub>
+  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/year.svg?v=1789072810572" width="100%" alt="generative painting of a year of GitHub contributions"/>
+  <br/>
+  <sub>Every day of the last twelve months is one brushstroke — busier days flow further and glow. It repaints itself every Monday.</sub>
 </div>
 
 <br/>
