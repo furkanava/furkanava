@@ -19,14 +19,14 @@
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/2048.svg?v=1789072069071" alt="shared 2048 board" width="560"/>
+  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/2048.svg?v=1789072171033" alt="shared 2048 board" width="560"/>
   <br/><br/>
   <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20left&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-left.svg" alt="move left"/></a>
   <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20up&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-up.svg" alt="move up"/></a>
   <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20down&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-down.svg" alt="move down"/></a>
   <a href="https://github.com/furkanava/furkanava/issues/new?title=2048%3A%20right&body=Just%20press%20**Submit%20new%20issue**%20%E2%80%94%20the%20bot%20plays%20the%20move%2C%20replies%20with%20the%20new%20board%20and%20closes%20this."><img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/btn-right.svg" alt="move right"/></a>
   <br/><br/>
-  <sub><!-- 2048:stats --><b>0</b> pts · best <b>0</b> · 0 moves by 0 people · no moves yet<!-- /2048:stats --></sub>
+  <sub><!-- 2048:stats --><b>0</b> pts · best <b>0</b> · 1 moves by 1 person · last move by <a href="https://github.com/furkanava">@furkanava</a><!-- /2048:stats --></sub>
 </div>
 
 <br/>

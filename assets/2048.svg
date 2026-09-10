@@ -20,15 +20,15 @@
   <rect width="560" height="322" rx="14" fill="#0D1117" stroke="#30363D"/>
   <rect x="20" y="20" width="282" height="282" rx="12" fill="#161B22"/>
     <g transform="translate(59 59)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
-    <g transform="translate(127 59)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
-    <g transform="translate(195 59)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
+    <g transform="translate(127 59)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#1F2335"/><text x="0" y="1" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="700" fill="#C0CAF5">2</text></g></g>
+    <g transform="translate(195 59)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#1F2335"/><text x="0" y="1" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="700" fill="#C0CAF5">2</text></g></g>
     <g transform="translate(263 59)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
-    <g transform="translate(59 127)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
+    <g transform="translate(59 127)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.15s" fill="freeze"/><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#1F2335"/><text x="0" y="1" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="700" fill="#C0CAF5">2</text><animateTransform attributeName="transform" type="scale" from="0.2" to="1" dur="0.35s" begin="0.15s" fill="freeze" additive="sum" calcMode="spline" keySplines="0.2 0.8 0.2 1.2"/></g></g>
     <g transform="translate(127 127)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
-    <g transform="translate(195 127)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#1F2335"/><text x="0" y="1" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="700" fill="#C0CAF5">2</text></g></g>
+    <g transform="translate(195 127)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
     <g transform="translate(263 127)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
     <g transform="translate(59 195)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
-    <g transform="translate(127 195)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#1F2335"/><text x="0" y="1" text-anchor="middle" dominant-baseline="middle" font-size="26" font-weight="700" fill="#C0CAF5">2</text></g></g>
+    <g transform="translate(127 195)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
     <g transform="translate(195 195)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
     <g transform="translate(263 195)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
     <g transform="translate(59 263)"><g><rect x="-29" y="-29" width="58" height="58" rx="8" fill="#161B22"/></g></g>
@@ -45,12 +45,12 @@
   <text x="440" y="130" class="v">0</text>
 
   <text x="330" y="166" class="k">MOVES</text>
-  <text x="330" y="190" class="v">0</text>
+  <text x="330" y="190" class="v">1</text>
   <text x="440" y="166" class="k">PLAYERS</text>
-  <text x="440" y="190" class="v">0</text>
+  <text x="440" y="190" class="v">1</text>
 
   <text x="330" y="226" class="k">LAST MOVE</text>
-  <text x="330" y="246" class="s">nobody yet</text>
+  <text x="330" y="246" class="s">@furkanava → up</text>
 
   <rect x="330" y="268" width="200" height="2" fill="url(#bar)" opacity="0.6"/>
   <text x="330" y="292" class="s" fill="#BB9AF7">your move<tspan class="blink"> _</tspan></text>
