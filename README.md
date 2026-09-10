@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/year.svg?v=1789072810572" width="100%" alt="generative painting of a year of GitHub contributions"/>
+  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/year.svg?v=1789072840396" width="100%" alt="generative painting of a year of GitHub contributions"/>
   <br/>
   <sub>Every day of the last twelve months is one brushstroke — busier days flow further and glow. It repaints itself every Monday.</sub>
 </div>
