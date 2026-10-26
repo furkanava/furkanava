@@ -10,7 +10,7 @@
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/year.svg?v=1792834410834" width="100%" alt="Generative painting of GitHub contributions"/>
+  <img src="https://raw.githubusercontent.com/furkanava/furkanava/main/assets/year.svg?v=1793003940394" width="100%" alt="Generative painting of GitHub contributions"/>
   <br/>
   <sub>12 months of contributions, rendered as a generative painting. Updated every Monday.</sub>
 </div>
